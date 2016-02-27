@@ -1,47 +1,35 @@
 {
-  "name": "docpad-plugin-yourpluginname",
+  "name": "docpad-plugin-setupinterview",
   "version": "2.0.0",
-  "description": "DocPad plugin that adds the ability to render Something to Something Else",
-  "homepage": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname",
+  "description": "DocPad plugin for add markup structure in Setup interview pages.",
+  "homepage": "https://github.com/almirfilho/docpad-plugin-setupinterview",
   "license": {
     "type": "MIT"
   },
   "keywords": [
     "docpad",
     "docpad-plugin",
-    "something",
-    "somethingelse"
+    "setup",
+    "interview",
+    "loopinfinito",
+    "loop infinito"
   ],
   "badges": {
-    "travis": true,
-    "npm": true,
-    "npmdownloads": true,
-    "david": true,
-    "daviddev": true,
-    "gratipay": "docpad",
-    "flattr": "344188/balupton-on-Flattr",
-    "paypal": "QB8GQPZAH84N6",
-    "bitcoin": "https://coinbase.com/checkouts/9ef59f5479eec1d97d63382c9ebcb93a",
-    "wishlist": "http://amzn.com/w/2F8TXKSNAFG4V"
+    "npm": true
   },
-  "author": "Copyright holders name <copyright holder's email> (copyright holder's website url)",
+  "author": "Almir Filho",
   "maintainers": [
-    "Your name <your email> (your github url)",
-    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-  ],
-  "contributors": [
-    "balupton (https://github.com/balupton)",
-    "RobLoach (https://github.com/RobLoach)"
+    "Almir Filho <almirflorenciofilho@gmail.com> (https://github.com/almirfilho)"
   ],
   "bugs": {
-    "url": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname/issues"
+    "url": "https://github.com/almirfilho/docpad-plugin-setupinterview/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourgithubusername/docpad-plugin-yourpluginname.git"
+    "url": "https://github.com/almirfilho/docpad-plugin-setupinterview.git"
   },
   "engines": {
-    "node": ">=0.8"
+    "node": ">=4.1.1"
   },
   "peerDependencies": {
     "docpad": "6"
@@ -52,9 +40,9 @@
     "coffee-script": "^1.9.1",
     "projectz": "^0.5.0"
   },
-  "main": "./out/yourpluginname.plugin.js",
+  "main": "./out/setupinterview.plugin.js",
   "scripts": {
-    "test": "node ./out/yourpluginname.test.js"
+    "test": "node ./out/setupinterview.test.js"
   },
   "cakeConfiguration": {
     "COFFEE_SRC_PATH": "src"

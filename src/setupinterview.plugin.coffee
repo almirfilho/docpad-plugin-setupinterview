@@ -1,9 +1,9 @@
 # Export Plugin
 module.exports = (BasePlugin) ->
 	# Define Plugin
-	class YourpluginnamePlugin extends BasePlugin
+	class SetupInterviewPlugin extends BasePlugin
 		# Plugin name
-		name: 'yourpluginname'
+		name: 'setupinterview'
 
 		# Render
 		# Called per document, for each extension conversion. Used to render one extension to another.
