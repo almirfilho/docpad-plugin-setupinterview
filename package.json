@@ -3,9 +3,7 @@
   "version": "2.0.0",
   "description": "DocPad plugin for add markup structure in Setup interview pages.",
   "homepage": "https://github.com/almirfilho/docpad-plugin-setupinterview",
-  "license": {
-    "type": "MIT"
-  },
+  "license": "MIT",
   "keywords": [
     "docpad",
     "docpad-plugin",
@@ -36,8 +34,15 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "docpad": "6",
+    "chai": "^3.5.0",
     "coffee-script": "^1.9.1",
+    "docpad": "6",
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-test": "^0.12.7",
+    "jsdom": "^8.0.4",
+    "load-grunt-tasks": "^3.4.0",
+    "mocha": "^2.4.5",
     "projectz": "^0.5.0"
   },
   "main": "./out/setupinterview.plugin.js",
