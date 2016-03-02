@@ -1,7 +1,6 @@
 cheerio = require 'cheerio'
 expect = require('chai').expect
 wrap = require '../../src/lib/wrapper'
-fs = require 'fs'
 
 
 describe 'Wrapper', ->
@@ -11,12 +10,10 @@ describe 'Wrapper', ->
 
   context 'should return html markup', ->
     $ = null
-    templateFilename = 'src/template/section.hbt'
 
     before ->
       section = title: '<h2>title</h2>', content: ['<p>line</p>']
-      template = fs.readFileSync templateFilename, 'utf8'
-      $ = cheerio.load wrap section, template
+      $ = cheerio.load wrap section
 
     it 'with subsection wrapping title', ->
       $subsection = $('h2').parent().get 0

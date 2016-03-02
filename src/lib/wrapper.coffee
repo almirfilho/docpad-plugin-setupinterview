@@ -1,9 +1,10 @@
 handlebars = require 'handlebars'
+templateStr = require('fs').readFileSync 'src/template/section.hbt', 'utf8'
 
-module.exports = (section, templateStr) ->
+module.exports = (section) ->
   result = ''
 
-  if section? and templateStr?
+  if section?
     if section.content
       section.content = section.content.join ''
 
