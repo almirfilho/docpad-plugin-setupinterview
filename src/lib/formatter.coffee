@@ -1,3 +1,5 @@
-splitter = require './splitter'
+split = require './splitter'
+wrap = require './wrapper'
 
-module.exports = (htmlContent) -> htmlContent
+module.exports = (htmlContent) ->
+  split(htmlContent).map((section) -> wrap(section)).join ''

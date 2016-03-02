@@ -1,4 +1,4 @@
-formatter = require './lib/formatter'
+format = require './lib/formatter'
 
 module.exports = (BasePlugin) ->
   class SetupInterviewPlugin extends BasePlugin
@@ -7,6 +7,6 @@ module.exports = (BasePlugin) ->
       {inExtension, outExtension, file} = opts
 
       if inExtension in ['html'] and outExtension in ['setup', null]
-        opts.content = formatter opts.content
+        opts.content = format opts.content
 
       return
