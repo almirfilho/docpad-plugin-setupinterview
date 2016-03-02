@@ -5,13 +5,9 @@ module.exports = (htmlContent) ->
 
   if htmlContent
     $ = cheerio.load htmlContent
-    $('h2').each (i, el) ->
-      $next = $(this).next()
-      sections.push
-        title: $.html this
-        content: while $next.length and $next[0].name isnt 'h2'
-          current = $next[0]
-          $next = $next.next()
-          $.html current
+    sections = $('h2').map((i, el) ->
+      title: $.html this
+      content: $(this).nextUntil('h2').map((i, el) -> $.html el).get()
+    ).get()
 
   sections
