@@ -1,16 +1,9 @@
 handlebars = require 'handlebars'
 
-module.exports = (section) ->
+module.exports = (section, templateStr) ->
   result = ''
 
-  if section?
-    templateStr = '''
-      <section>
-        <div>{{ title }}</div>
-        <div>{{ content }}</div>
-      </section>
-    '''
-
+  if section? and templateStr?
     if section.content
       section.content = section.content.join ''
 
