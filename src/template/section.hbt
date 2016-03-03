@@ -1,4 +1,8 @@
 <section>
-  <div>{{ title }}</div>
-  <div>{{ content }}</div>
+  <div>
+    {{ title }}
+  </div>
+  <div>
+    {{ content }}
+  </div>
 </section>
