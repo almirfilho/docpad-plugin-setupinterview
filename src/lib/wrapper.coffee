@@ -1,5 +1,5 @@
 handlebars = require 'handlebars'
-templateStr = require('fs').readFileSync 'src/template/section.hbt', 'utf8'
+templateStr = require('fs').readFileSync __dirname + '/../template/section.hbt', 'utf8'
 
 module.exports = (section) ->
   result = ''
