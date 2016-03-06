@@ -1,6 +1,6 @@
 module.exports = (grunt) ->
   grunt.config 'mochaTest',
-    test:
+    lib:
       src: 'test/unit/**/*-test.coffee'
       options:
         reporter: 'nyan'

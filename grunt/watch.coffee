@@ -1,5 +1,17 @@
 module.exports = (grunt) ->
   grunt.config 'watch',
-    tests:
-      files: ['test/unit/**/*.coffee', 'src/lib/**/*.coffee']
+    lib:
       tasks: 'mochaTest'
+      files: [
+        'test/unit/**/*.coffee'
+        'src/lib/**/*.coffee'
+        'src/template/**/*'
+      ]
+
+    docpad_test:
+      tasks: 'shell:docpad_test'
+      files: [
+        'test/src/**/*'
+        'test/out-expected/**/*'
+        'src/setupinterview.*.coffee'
+      ]
