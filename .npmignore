@@ -27,6 +27,8 @@ CONTRIBUTING.md
 HISTORY.md
 **/src/
 **/test/
+grunt/
+Gruntfile.coffee
 
 # Other Package Definitions
 template.js
