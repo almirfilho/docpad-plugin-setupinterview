@@ -2,17 +2,39 @@
 
 [![NPM version][npm_version]][view_on_npm]
 
-DocPad plugin to add markup structure in [Setup][setup] interview pages by
-adding either the `setup` extension to it (must come before `html` extension).
-
-Convention: `.setup.html`
+DocPad plugin to add markup structure to [Setup][setup] interview pages. 
 
 
 ## Usage
 
-``` bash
-$ docpad install docpad-plugin-setupinterview
+Install via NPM:
+
+```bash
+$ npm install docpad-plugin-setupinterview
 ```
+
+Add the `setup` extension to HTML files you want to transform (it must come 
+before `html` extension), i.e. _index.setup.html_ or _index.setup.html.md_.
+
+It will split the content into sections with questions (title) and answers
+(content).
+
+
+## Contributing
+
+Clone this repo, install the dependencies from NPM and use the workflows.
+
+```bash
+$ git clone https://github.com/almirfilho/docpad-plugin-setupinterview.git
+$ cd docpad-plugin-setupinterview
+$ npm install
+$ grunt
+```
+
+### Requirements
+
+- Node.js with NPM
+- Grunt-cli
 
 
 ## License
