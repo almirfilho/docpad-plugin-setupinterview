@@ -1,8 +1,8 @@
-<section>
-  <div>
+<section class="interview-section">
+  <div class="interview-question">
     <h2>Hello world three</h2>
   </div>
-  <div>
+  <div class="interview-answer">
     <p>John Lennon is the guy.</p><p>George Harrison comes right after him.</p>
   </div>
 </section>

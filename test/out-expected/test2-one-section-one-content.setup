@@ -1,8 +1,8 @@
-<section>
-  <div>
+<section class="interview-section">
+  <div class="interview-question">
     <h2>Hello world two</h2>
   </div>
-  <div>
+  <div class="interview-answer">
     <p>Bob Dylan is the king</p>
   </div>
 </section>

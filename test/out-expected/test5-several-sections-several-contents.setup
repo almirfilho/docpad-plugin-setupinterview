@@ -1,26 +1,26 @@
-<section>
-  <div>
+<section class="interview-section">
+  <div class="interview-question">
     <h2>Hello world john</h2>
   </div>
-  <div>
+  <div class="interview-answer">
     <p>Content line 1.</p><p>Content line 2.</p>
   </div>
 </section>
 
-<section>
-  <div>
+<section class="interview-section">
+  <div class="interview-question">
     <h2>Hello world paul</h2>
   </div>
-  <div>
+  <div class="interview-answer">
     
   </div>
 </section>
 
-<section>
-  <div>
+<section class="interview-section">
+  <div class="interview-question">
     <h2>Hello world george</h2>
   </div>
-  <div>
+  <div class="interview-answer">
     <p>Content line 3.</p><figure>
   <img src="#">
   <figcaption>Content image.</figcaption>

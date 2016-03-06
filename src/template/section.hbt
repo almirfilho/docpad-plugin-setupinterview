@@ -1,8 +1,8 @@
-<section>
-  <div>
+<section class="interview-section">
+  <div class="interview-question">
     {{ title }}
   </div>
-  <div>
+  <div class="interview-answer">
     {{ content }}
   </div>
 </section>

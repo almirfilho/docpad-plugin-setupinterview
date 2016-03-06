@@ -1,8 +1,8 @@
-<section>
-  <div>
+<section class="interview-section">
+  <div class="interview-question">
     <h2>Hello world one</h2>
   </div>
-  <div>
+  <div class="interview-answer">
     
   </div>
 </section>
